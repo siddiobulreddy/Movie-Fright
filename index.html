@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>South Movies — OTT (Suspense & Thriller)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <div class="logo-mark" aria-hidden="true"></div>
+      <div>
+        <div class="site-title">South Movies</div>
+        <div class="site-sub">OTT for South Indian Suspense & Thriller</div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <!-- Login Page -->
+    <section id="loginPage" class="page active">
+      <div class="card center-card">
+        <h1>Welcome to South Movies</h1>
+        <p class="muted">Login to personalize movie recommendations</p>
+        <input id="username" type="text" placeholder="Username" autocomplete="username" />
+        <input id="password" type="password" placeholder="Password" autocomplete="current-password" />
+        <div class="row" style="width:100%;justify-content:center">
+          <button id="loginBtn" class="btn primary">Login</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cast Selection Page -->
+    <section id="castPage" class="page">
+      <div class="card">
+        <h2>Select your favourites</h2>
+        <p class="muted">Choose heroes, heroines, directors and music directors. Pick one or more items in each category (optional), then Continue.</p>
+
+        <div class="pref-grid">
+          <div>
+            <h3>Heroes</h3>
+            <div id="heroesGroup" class="chips"></div>
+          </div>
+          <div>
+            <h3>Heroines</h3>
+            <div id="heroinesGroup" class="chips"></div>
+          </div>
+          <div>
+            <h3>Directors</h3>
+            <div id="directorsGroup" class="chips"></div>
+          </div>
+          <div>
+            <h3>Music Directors</h3>
+            <div id="musicGroup" class="chips"></div>
+          </div>
+        </div>
+
+        <div class="actions-row">
+          <button id="backToLogin" class="btn ghost">Back</button>
+          <button id="prefsNext" class="btn primary" disabled>Continue</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendations Page -->
+    <section id="recommendPage" class="page">
+      <div class="card">
+        <div class="toolbar">
+          <input id="searchInput" type="search" placeholder="Search movies, cast, director or genre..." />
+          <div class="toolbar-right">
+            <button id="clearSearch" class="btn ghost">Clear</button>
+          </div>
+        </div>
+
+        <div id="resultsMeta" class="muted" style="margin-top:10px"></div>
+
+        <div id="moviesGrid" class="grid" style="margin-top:14px"></div>
+
+        <div class="actions-row" style="margin-top:16px">
+          <button id="backToCast" class="btn ghost">Back</button>
+          <button id="logoutBtn" class="btn ghost">Logout</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Movie Modal -->
+  <div id="movieModal" class="modal" aria-hidden="true">
+    <div class="modal-inner card">
+      <button id="modalClose" class="modal-close" aria-label="Close modal">&times;</button>
+      <div id="modalTitle" class="modal-title"></div>
+      <div id="modalMeta" class="muted" style="margin-top:8px"></div>
+      <p id="modalSynopsis" style="margin-top:12px"></p>
+      <div style="margin-top:12px;text-align:right">
+        <a id="trailerBtn" class="btn primary" target="_blank" rel="noopener">Watch Trailer</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
