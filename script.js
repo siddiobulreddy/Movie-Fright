@@ -79,11 +79,11 @@ document.addEventListener('DOMContentLoaded', () => {
         music: [...state.prefs.music]
       }
     };
-    localStorage.setItem('southMovies.session', JSON.stringify(data));
+    localStorage.setItem('movieFright.session', JSON.stringify(data));
   }
   function loadSession() {
     try {
-      const raw = localStorage.getItem('southMovies.session');
+      const raw = localStorage.getItem('movieFright.session');
       if (!raw) return;
       const s = JSON.parse(raw);
       state.user = s.user || null;
@@ -228,7 +228,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   logoutBtn.addEventListener('click', () => {
-    localStorage.removeItem('southMovies.session');
+    localStorage.removeItem('movieFright.session');
     state.user = null;
     state.prefs = { heroes: new Set(), heroines: new Set(), directors: new Set(), music: new Set() };
     usernameEl.value = '';
@@ -267,3 +267,4 @@ document.addEventListener('DOMContentLoaded', () => {
     show('login');
   }
 });
+
