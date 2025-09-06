@@ -1,62 +1,54 @@
-🎬 Movie Fright
+🎬 Movie Fright – AI-Powered Horror Movie Recommender
+A spooky and smart web app that recommends horror movies based on your fear preferences. Built using HTML, CSS, JavaScript, and AI prompt engineering, Movie Fright blends entertainment with eerie precision.
 
-Movie Fright is a movie recommendation website built using HTML, CSS, and JavaScript. It focuses on helping users discover suspense and thriller movies with an elegant interface and AI-powered recommendation logic.
+🚀 Features
+🧠 AI-driven movie suggestions based on user input
 
-✨ Features
+👻 Categorizes horror types: psychological, supernatural, slasher, etc.
 
-🔑 User Authentication – Simple login page for user access.
+🎥 Fetches movie data and trailers using external APIs
 
-🎥 Movie Recommendations – Suggests suspense and thriller movies dynamically.
+📱 Responsive design for mobile and desktop
 
-🎨 Modern UI – Built with responsive design using CSS.
-
-⚡ AI-based Recommendation Logic – Implemented primarily with JavaScript.
-
-🔄 Navigation Buttons – Easy back navigation on every page.
+🕸️ Dark-themed UI with horror-inspired styling
 
 🛠️ Tech Stack
+HTML5 – Structure
 
-Frontend: HTML5, CSS3, JavaScript
+CSS3 – Styling (Dark horror palette)
 
-Libraries/Frameworks: Bootstrap, Font Awesome
+JavaScript (ES6) – Logic & API integration
 
-Other Tools: AI-based JavaScript logic
+Prompt Engineering – AI-based recommendation logic
 
-🚀 Getting Started
-Prerequisites
+TMDB API – Movie data and trailers
 
-Any modern browser (Chrome, Edge, Firefox)
+📸 Screenshot
+(Insert a screenshot or GIF of the app interface here)
 
-Basic knowledge of HTML/CSS/JS (for contributors)
+⚡ How It Works
+User enters their fear type or horror preference
 
-Installation
+App sends a prompt to the AI engine
 
-Clone this repository
+AI returns a curated list of horror movies
 
-git clone https://github.com/your-username/moviefright.git
+Movie details and trailers are displayed dynamically
 
+📌 Future Improvements
+🧪 Add user ratings and reviews
 
-Navigate to the project folder
+🕵️‍♂️ Include genre filters and age-based recommendations
 
-cd moviefright
+🌐 Multilingual support for global horror fans
 
-
-Open index.html in your browser
-
-📸 Screenshots
-
-(Add screenshots here – e.g., login page, recommendations page, etc.)
-
-🧩 Future Enhancements
-
-Add search functionality for movies
-
-Integrate with an external API (e.g., TMDB or IMDb) for real movie data
-
-Dark mode toggle
-
-Improved AI recommendation algorithm
+🎭 Integrate mythological horror from Indian folklore
 
 🤝 Contributing
+Contributions, issues, and feature requests are welcome! Feel free to fork the repo, open a PR, or raise an issue.
 
-Contributions are welcome! Feel free to fork this repo and create a pull request.
+📜 License
+This project is licensed under the MIT License – free to use and modify.
+
+👨‍💻 Author
+Siddi Obul Reddy 📧 siddiobulreddy@gmail.com 🔗 LinkedIn | GitHub
