@@ -50,8 +50,9 @@ ________________________________________________________________________________
 Contributions, issues, and feature requests are welcome! Feel free to fork the repo, open a PR, or raise an issue.
 _________________________________________________________________________________________________________________________________________________________
 📜 License
+
 This project is licensed under the MIT License – free to use and modify.
 _________________________________________________________________________________________________________________________________________________________
 👨‍💻 Author
 
-Siddi Obul Reddy 📧 siddiobulreddy@gmail.com 🔗 LinkedIn | GitHub
+Siddi Obul Reddy 📧 siddiobulreddy@gmail.com 
